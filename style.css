@@ -1,0 +1,146 @@
+/* Reset Css */
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  Basic Utilities Clases Started*/
+.wid100 {
+    width: 100%;
+}
+
+.wid50 {
+    width: 75%;
+    margin: 20px auto;
+}
+
+.primary-heading h3 {
+    text-transform: uppercase;
+    padding: 10px 0px;
+    font-size: 30px;
+
+}
+
+.primary-paragraph p {
+    word-spacing: .4px;
+    padding: 10px 0px;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: .2px;
+    line-height: 40PX;
+}
+
+.foot-heading h4 {
+    word-spacing: 1px;
+    padding: 10px 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.foot-heading a {
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/*  Basic Utilities Clases Ended*/
+.container {
+    border: 10px solid black;
+    background-image: linear-gradient(lightgrey, lightpink, lightyellow);
+}
+
+.header {
+    height: 270px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    border: 2px solid rgb(6, 6, 6);
+}
+
+.title {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.title h1 {
+    padding: 10px 5px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.year {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.year h4 {
+    padding: 10px 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Footer Started */
+.foot {
+    border: 2px solid black;
+    margin: 20px 0px;
+    padding: 5px 20px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+/* Responsive */
+@media only screen and (max-width:992px)
+ {
+    .container {
+        display: inline-block;
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .header {
+        display: block;
+        width: 100%;
+    }
+    .title {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .img{
+    display: inline-block;
+    margin: 0px 20%;
+       
+    }
+    .year {
+        margin: 10px;
+        position: relative;
+        bottom: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* .sec-1,
+    .sec-2,
+    .sec-3,
+    .sec4 {
+        width: 95%;
+    } */
+
+
+}
+
+
+/* **************THE END ******************/
